@@ -26,6 +26,6 @@ class Pieza: # se crea la clase Pieza
     def __str__(self):# método para representar la pieza como un string, indicando su nombe, color y posición
         return f"{self.__class__.__name__} {self.__color} en {self.__posicion}"
 
-    def mover(self, casilla_destino): # este método verifica si una pieza puede moverse de su posición actual a otra posición
+    def mover(self, casilla_destino): # este método verifica si una pieza puede moverse de su posición actual a otra casilla deseada
         movimientos_posibles = self.calcular_movimientos_posibles()
-        return casilla_destino in movimientos_posibles
+        return casilla_destino in movimientos_posibles 
