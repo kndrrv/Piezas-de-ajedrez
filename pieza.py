@@ -1,5 +1,7 @@
 # Kendra Gutiérrez Vega, 2024
 
+from coordenada import Coordenada
+
 class Pieza: # se crea la clase Pieza
     def __init__(self, color, posicion): # se crea el constructor y se recibe como parámetros self, color y posicion
         self.__color = color # se agregan los atributos utilizando self para poder acceder a ellos y se utiliza __ volverlo privado
