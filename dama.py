@@ -5,7 +5,7 @@ class Dama(Pieza):
 
     def calcular_movimientos_posibles(self):
         movimiento = set()
-        posicion_actual = self.get_posicion
+        posicion_actual = self.get_posicion()
 
         # movimientos como torre, horizontal y vertical
         for columna in range(1, 9): # horizontal
