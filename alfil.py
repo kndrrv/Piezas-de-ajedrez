@@ -7,7 +7,7 @@ class Alfil(Pieza): # se crea la clase alfil
 
     def calcular_movimientos_posibles(self): # cálcula los posibles movimientos
         movimiento = set() # se crea un set para evitar movimientos repetidos
-        posicion_actual = self.get_posicion # se obtiene la posición actual
+        posicion_actual = self.get_posicion() # se obtiene la posición actual
 
         # revisa las cuatro direcciones en diagonal
         for i in range(1, 8): # puede moverse hasta 7 casillas en cada dirección
