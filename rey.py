@@ -7,7 +7,7 @@ class Rey(Pieza): # se crea la clase rey
 
     def calcular_movimientos_posibles(self): # cálcula los posibles movimientos
         movimiento = set() # se crea un set para evitar movimientos repetidos
-        posicion_actual = self.get_posicion # obtiene la posición actual
+        posicion_actual = self.get_posicion() # obtiene la posición actual
 
         # el rey puede moverse a una casilla en cualquier dirección
         for fila_diff in [-1, 0, 1]: # arriba, mismo nivel, abajo
