@@ -22,7 +22,7 @@ class Pieza: # se crea la clase Pieza
 
     # getter y setter de posición
     def get_posicion(self): # el método getter nos ayuda a acceder al atributo privado __posicion
-        return+ self.__posicion
+        return self.__posicion
 
     def set_posicion(self, new_posicion): # el método getter nos ayuda a modificar el atributo privado __posicion
         self.__posicion = new_posicion
